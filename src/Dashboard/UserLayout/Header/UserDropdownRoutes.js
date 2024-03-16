@@ -10,7 +10,7 @@ const UserDropdownRoutes = () => {
             visiblity: IsUserLoggedIn()
         },
         {
-            name: "Add Property",
+            name: "Add Unit",
             link: '/dashboard/addproperty',
             visiblity: AgentRole() || SuperAdmin()
         }, {

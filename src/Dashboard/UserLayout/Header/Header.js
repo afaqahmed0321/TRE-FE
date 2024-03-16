@@ -25,7 +25,7 @@ export default function Header() {
                 {/* Logo */}
                 <div id="logo">
                   <Link to="/dashboard">
-                    <img src={process.env.PUBLIC_URL + "/images/logo.png"} alt="" />
+                    <img src={process.env.PUBLIC_URL + "/images/LogoDark.png"} alt="" />
                   </Link>
                 </div>
                 {/* Mobile Navigation */}

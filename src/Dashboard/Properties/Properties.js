@@ -8,7 +8,7 @@ export default function Properties() {
           <table className="table-responsive">
             <thead>
               <tr>
-                <th className="pl-2">My Properties</th>
+                <th className="pl-2">My Units</th>
                 <th className="p-0" />
                 <th>Date Added</th>
                 <th>Views</th>

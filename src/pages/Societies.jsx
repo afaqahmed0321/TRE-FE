@@ -16,9 +16,9 @@ export default function AllSocieties() {
         <div className="container-fluid">
           <div className="sec-title">
             <h2>
-              <span>All </span>Societies
+              <span>All </span>Areas
             </h2>
-            <p>Properties In All Societies.</p>
+            <p>Properties In All Areas.</p>
           </div>
           <div className="row">
             {allSocieties?.data?.map((item, key) => (

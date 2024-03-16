@@ -127,12 +127,12 @@ export default function AllPhases() {
         {SuperAdmin() &&
           <> <div className="Actions w-100 d-flex justify-content-end mb-2">
             <button className="btn  btn-common" onClick={() => setShow(true)}>
-              Add New Phase
+              Add New Community
             </button>
           </div>
             <Modal show={show} onHide={handleClose}>
               <Modal.Header closeButton>
-                <Modal.Title>{editMode ? "Edit Phase" : "New Phase"}</Modal.Title>
+                <Modal.Title>{editMode ? "Edit Cummunity" : "New Community"}</Modal.Title>
               </Modal.Header>
               <Modal.Body>
                 <Formik
@@ -174,7 +174,7 @@ export default function AllPhases() {
                       </div>
                       <div className="form-row">
                         <div className="form-group col-md-6">
-                          <label htmlFor="inputEmail4">Society</label>
+                          <label htmlFor="inputEmail4">Area</label>
                           <Field as="select" className='form-control' name="society">
                             {allSocieties?.data?.map((item, key) => {
                               return <option key={key} value={item?._id}>{item?.name}</option>
@@ -186,7 +186,7 @@ export default function AllPhases() {
 
                         <div className="form-group col-md-6">
                           <label htmlFor="inputEmail4">Status</label>
-                          <Field as="select" className='form-control' placeholder="Select Society" name="status">
+                          <Field as="select" className='form-control' placeholder="Select Area" name="status">
                             <option value='Active'>Active</option>
                             <option value='InActive'>InActive</option>
                           </Field>

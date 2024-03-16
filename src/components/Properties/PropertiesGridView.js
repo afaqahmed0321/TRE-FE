@@ -6,5 +6,5 @@ export default function   PropertiesGridView({ AllProperties }) {
     <>
       {AllProperties?.length > 0 && AllProperties.map((item, key) => (<PropertyGridCard item={item} />))}
     </>
-  )
+  ) 
 }

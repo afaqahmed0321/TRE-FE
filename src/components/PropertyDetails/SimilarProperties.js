@@ -6,7 +6,7 @@ export default function SimilarProperties() {
     <>
       <section className="similar-property featured portfolio p-0 bg-white-inner">
         <div className="container">
-          <h5>Similar Properties</h5>
+          <h5>Similar Units</h5>
           <div className="row portfolio-items">
             <SingleCard/>
             <SingleCard/>

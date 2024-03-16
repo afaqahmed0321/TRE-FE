@@ -5,7 +5,7 @@ export default function FeatureProperties() {
     <>
       <div className="widget-boxed mt-5">
         <div className="widget-boxed-header mb-5">
-          <h4>Feature Properties</h4>
+          <h4>Feature Units</h4>
         </div>
         <div className="widget-boxed-body">
           <div className="slick-lancers">

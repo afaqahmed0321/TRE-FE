@@ -50,7 +50,7 @@ export default function PopularProperties() {
         <div className="container-fluid">
           <div className="sec-title discover">
             <h2>
-              <span>Discover </span>Popular Properties
+              <span>Discover </span>Popular Units
             </h2>
             <p>We provide full service at every step.</p>
           </div>

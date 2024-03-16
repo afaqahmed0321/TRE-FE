@@ -5,17 +5,17 @@ export const NavbarRoutes = () => {
 
     const Routes = [
         {
-            name: "Societies",
+            name: "Area",
             link: '/societies',
             visiblity: true
         },
         {
-            name: "Phases",
+            name: "Cummunity",
             link: '/phases',
             visiblity: true
         },
         {
-            name: "Blocks",
+            name: "Building",
             link: '/blocks',
             visiblity: true
         },
@@ -25,7 +25,7 @@ export const NavbarRoutes = () => {
             link: '/agents',
             visiblity: true
         }, {
-            name: "Properties",
+            name: "Units",
             link: '/properties',
             visiblity: true
         }
@@ -47,7 +47,7 @@ export const UserDropdownRoutes = () => {
             visiblity: IsUserLoggedIn()
         },
         {
-            name: "Add Property",
+            name: "Add Unit",
             link: '/dashboard/addproperty',
             visiblity: AgentRole() || SuperAdmin()
         }, {

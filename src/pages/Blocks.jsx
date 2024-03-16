@@ -30,9 +30,9 @@ export default function AllBlocks() {
         <div className="container-fluid">
           <div className="sec-title">
             <h2>
-              <span>All </span>Blocks
+              <span>All </span>Buildings
             </h2>
-            <p>Properties In All Blocks.</p>
+            {/* <p>Properties In All Buildings.</p> */}
           </div>
           <div className="row">
             {AllBlocks?.map((item, key) => (

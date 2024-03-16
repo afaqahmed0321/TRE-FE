@@ -1,4 +1,5 @@
 import React from 'react'
+import { Link } from 'react-router-dom'
 
 const Footer = () => {
     return (
@@ -9,28 +10,29 @@ const Footer = () => {
                         <div className="col-lg-3 col-md-6">
                             <div className="netabout">
                                 <a href="index.html" className="logo">
-                                    <img src={process.env.PUBLIC_URL + "/images/myLogo.png"} alt="netcom" />
+                                    <img src={process.env.PUBLIC_URL + "/images/LogoLight.jpg"} alt="netcom" />
                                 </a>
-                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cum incidunt architecto soluta laboriosam, perspiciatis, aspernatur officiis esse.</p>
+                                <p>T for trust and transparency,
+                                    T for Tahani real estate</p>
                             </div>
                             <div className="contactus">
                                 <ul>
                                     <li>
                                         <div className="info">
                                             <i className="fa fa-map-marker" aria-hidden="true"></i>
-                                            <p className="in-p">UAE</p>
+                                            <p className="in-p">Office 602 Dusseldrof business point Al BARSHA 1</p>
                                         </div>
                                     </li>
                                     <li>
                                         <div className="info">
                                             <i className="fa fa-phone" aria-hidden="true"></i>
-                                            <p className="in-p">+456 875 369 208</p>
+                                            <p className="in-p">+97144538357</p>
                                         </div>
                                     </li>
                                     <li>
                                         <div className="info">
                                             <i className="fa fa-envelope" aria-hidden="true"></i>
-                                            <p className="in-p ti">support@tahanirealestate.com</p>
+                                            <p className="in-p ti">Info@tahanirealestate.com</p>
                                         </div>
                                     </li>
                                 </ul>
@@ -40,19 +42,19 @@ const Footer = () => {
                             <div className="navigation">
                                 <h3>Navigation</h3>
                                 <div className="nav-footer">
-                                    <ul>
+                                    {/* <ul>
                                         <li><a href="index.html">Home One</a></li>
                                         <li><a href="properties-right-sidebar.html">Properties Right</a></li>
                                         <li><a href="properties-full-list.html">Properties List</a></li>
                                         <li><a href="properties-details.html">Property Details</a></li>
                                         <li className="no-mgb"><a href="agents-listing-grid.html">Agents Listing</a></li>
-                                    </ul>
-                                    <ul className="nav-right">
-                                        <li><a href="agent-details.html">Agents Details</a></li>
-                                        <li><a href="about.html">About Us</a></li>
-                                        <li><a href="blog.html">Blog Default</a></li>
-                                        <li><a href="blog-details.html">Blog Details</a></li>
-                                        <li className="no-mgb"><a href="contact-us.html">Contact Us</a></li>
+                                    </ul> */}
+                                    <ul className="nav-">
+                                        <li><a href="agents">Agents Details</a></li>
+                                        <li><a href="about">About Us</a></li>
+                                        {/* <li><a href="blog.html">Blog Default</a></li>
+                                        <li><a href="blog-details.html">Blog Details</a></li> */}
+                                        <li className="no-mgb"><a href="contact">Contact Us</a></li>
                                     </ul>
                                 </div>
                             </div>
@@ -93,7 +95,7 @@ const Footer = () => {
                                 </div>
                             </div>
                         </div>
-                        <div className="col-lg-3 col-md-6">
+                        {/* <div className="col-lg-3 col-md-6">
                             <div className="newsletters">
                                 <h3>Newsletters</h3>
                                 <p>Sign Up for Our Newsletter to get Latest Updates and Offers. Subscribe to receive news in your inbox.</p>
@@ -106,18 +108,18 @@ const Footer = () => {
                                     <p className="subscription-success"></p>
                                 </div>
                             </form>
-                        </div>
+                        </div> */}
                     </div>
                 </div>
             </div>
             <div className="second-footer">
                 <div className="container">
-                    <p>2021 © Copyright - All Rights Reserved.</p>
+                    <p>2024 © Copyright - All Rights Reserved.</p>
                     <ul className="netsocials">
-                        <li><a href="#"><i className="fa fa-facebook" aria-hidden="true"></i></a></li>
-                        <li><a href="#"><i className="fa fa-twitter" aria-hidden="true"></i></a></li>
-                        <li><a href="#"><i className="fab fa-instagram"></i></a></li>
-                        <li><a href="#"><i className="fa fa-youtube" aria-hidden="true"></i></a></li>
+                        <li><Link to="https://www.facebook.com/profile.php?id=100093670877489"><i className="fa fa-facebook" aria-hidden="true"></i></Link></li>
+                        <li><Link to="#"><i className="fab fa-instagram"></i></Link></li>
+                        <li><Link to="#"><i className="fa fa-twitter" aria-hidden="true"></i></Link></li>
+                        <li><Link to="https://www.youtube.com/@tahanirealestate"><i className="fa fa-youtube" aria-hidden="true"></i></Link></li>
                     </ul>
                 </div>
             </div>

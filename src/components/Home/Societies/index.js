@@ -19,7 +19,7 @@ export default function PopularPlaces() {
         <div className="container-fluid">
           <div className="sec-title">
             <h2>
-              Societies
+              Areas
             </h2>
             {/* <p>Properties In  All Societies.</p> */}
           </div>

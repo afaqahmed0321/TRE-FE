@@ -85,7 +85,7 @@ export default function AddReview() {
                     defaultValue={''}
                   />
                 </div>
-                <button type="submit" className="btn btn-primary btn-lg mt-2">
+                <button type="submit" className="btn btn-primary btn-lg btn-green mt-2">
                   Submit Review
                 </button>
               </form>

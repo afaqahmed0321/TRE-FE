@@ -19,36 +19,36 @@ const SideBarRoutes = () => {
             visiblity: IsUserLoggedIn()
         },
         {
-            name: "Societies",
+            name: "Area",
             link: '/dashboard/societies',
             icon: 'fa fa-user',
             visiblity: AgentRole() || SuperAdmin()
         }
         , {
-            name: "Phases",
+            name: "Cummunities",
             link: '/dashboard/phases',
             icon: 'fa fa-user',
             visiblity: AgentRole() || SuperAdmin()
         }
         , {
-            name: "Blocks",
+            name: "Buildings",
             link: '/dashboard/blocks',
             icon: 'fa fa-user',
             visiblity: AgentRole() || SuperAdmin()
         }
         , {
-            name: "Add Property",
+            name: "Add Unit",
             link: '/dashboard/addproperty',
             icon: 'fa fa-list',
             visiblity: AgentRole() || SuperAdmin()
         }
         , {
-            name: "My Properties",
+            name: "My Units",
             link: '/dashboard/properties',
             icon: 'fa fa-list',
             visiblity: AgentRole() || SuperAdmin()
         }, {
-            name: " Favorited Properties",
+            name: " Favorited Units",
             link: '/dashboard/favproperties',
             icon: 'fa fa-heart',
             visiblity: AgentRole() || SuperAdmin()

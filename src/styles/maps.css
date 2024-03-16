@@ -2160,7 +2160,7 @@ img.mfp-img {
   background: rgba(74, 74, 76, 0.7) !important;
 }
 .homes-tag.featured {
-  background: #ff385c !important;
+  background: #255f84 !important;
 }
 .portfolio .homes-price {
   font-size: 20px !important;
@@ -2238,7 +2238,7 @@ img.mfp-img {
 }
 .portfolio .homes-content h3 a:hover,
 .blog-section .news-item h3:hover {
-  color: #ff385c;
+  color: #255f84;
 }
 .portfolio .footer img {
   width: 40px;
@@ -2329,7 +2329,7 @@ h4.sc-jb-title a:hover {
 }
 section.portfolio {
   padding: 4.6rem 0;
-  background: #ff385c;
+  background: #255f84;
 }
 .sec-title.discover h2 span,
 .sec-title.discover h2,
@@ -2344,7 +2344,7 @@ section.portfolio {
   background: #eee;
 }
 .fd-1 .slick-dots li:after {
-  background: #ff385c;
+  background: #255f84;
 }
 .portfolio .project-single {
   box-shadow: none;
