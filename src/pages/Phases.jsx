@@ -31,8 +31,8 @@ export default function AllPhases() {
       <section className="feature-categories bg-white rec-pro">
         <div className="container-fluid">
           <div className="sec-title">
-            <h2>All Phases</h2>
-            <p>Properties in all phases</p>
+            <h2>All Cummunities</h2>
+            {/* <p>Properties in all Cummunities</p> */}
           </div>
           <div className="row">
             {AllPhases?.map((item, key) => {

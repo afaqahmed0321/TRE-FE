@@ -1,12 +1,12 @@
 import React from 'react';
 
-export default function ContactAgent() {
+export default function ContactAgent({ agent }) {
   return (
     <>
       <div className="widget-boxed mt-33 mt-5">
         <div className="sidebar-widget author-widget2">
           <div className="agent-contact-form-sidebar border-0 pt-0">
-            <h4>Contact Carls Jhons</h4>
+            <h4>Contact {`${agent?.firstName}  ${agent?.lastName}`}</h4>
             <form
               name="contact_form"
               method="post"

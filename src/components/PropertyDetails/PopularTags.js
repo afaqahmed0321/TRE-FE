@@ -53,7 +53,7 @@ export default function PopularTags() {
               </span>
               <span>
                 <a href="#" className="btn btn-outline-primary">
-                  Properties
+                Units
                 </a>
               </span>
             </div>

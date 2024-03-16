@@ -22,7 +22,7 @@ export default function Header() {
             <div className="left-side">
               <div id="logo">
                 <Link to="/">
-                  <img src={process.env.PUBLIC_URL + 'images/myLogo.png'} alt="" />
+                  <img src={process.env.PUBLIC_URL + 'images/LogoDark.jpg'} alt="" />
                 </Link>
               </div>
               <div className="mmenu-trigger">
@@ -71,8 +71,7 @@ export default function Header() {
               <div className="clearfix" />
             </div>
 
-            {AgentRole() ||
-              (SuperAdmin() && (
+            {(SuperAdmin() || AgentRole() ? (
                 <div className="right-side d-none d-none  d-lg-none d-xl-flex">
                   {/* Header Widget */}
                   <div className="header-widget">
@@ -83,7 +82,10 @@ export default function Header() {
                   </div>
                   {/* Header Widget / End */}
                 </div>
-              ))}
+              ):(
+                null
+              ))            
+              }
             {IsUserLoggedIn() && (
               <div
                 className={

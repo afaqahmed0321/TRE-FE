@@ -75,12 +75,12 @@ export default function AllSocieties() {
         {SuperAdmin() &&
           <> <div className="Actions w-100 d-flex justify-content-end mb-2">
             <button className="btn  btn-common" onClick={() => setShow(true)}>
-              Add New Society
+              Add New Area
             </button>
           </div>
             <Modal show={show} onHide={handleClose}>
               <Modal.Header closeButton>
-                <Modal.Title>{editMode ? "Edit Society" : "New Society"}</Modal.Title>
+                <Modal.Title>{editMode ? "Edit Area" : "New Area"}</Modal.Title>
               </Modal.Header>
               <Modal.Body>
                 <Formik

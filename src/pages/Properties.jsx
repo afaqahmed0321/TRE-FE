@@ -57,7 +57,7 @@ export default function PropertiesGrid() {
         <section className="properties-list full featured portfolio blog  p-5">
           <div className="container-fluid ">
             <div class="row">
-              <div class="col-lg-8 col-md-12 blog-pots">
+              <div class="col-lg-12 col-md-12 blog-pots">
                 <section className="headings-2 pt-0">
                   <div className="pro-wrapper">
                     <div className="detail-wrapper-body">
@@ -67,7 +67,7 @@ export default function PropertiesGrid() {
                         </div>
                       </div>
                     </div>
-                    <div className="cod-pad single detail-wrapper mr-2 mt-0 d-flex justify-content-md-end align-items-center grid">
+                    <div className="cod-pad single detail-wrapper mr-2 mt-0 d-flex justify-content-end align-items-center grid">
                       <div className="input-group border rounded input-group-lg w-auto mr-4">
                         <label
                           className="input-group-text bg-transparent border-0 text-uppercase letter-spacing-093 pr-1 pl-3"
@@ -121,17 +121,14 @@ export default function PropertiesGrid() {
                   )}
                 </div>
               </div>
-              <aside className="col-lg-4 col-md-12 car">
+              {/* <aside className="col-lg-4 col-md-12 car">
                 <div className="widget">
-                  {/* Search Fields */}
                   <div className="widget-boxed main-search-field">
                     <div className="widget-boxed-header">
                       <h4>Find Your House</h4>
                     </div>
-                    {/* Search Form */}
                     <div className="trip-search">
                       <form className="form">
-                        {/* Form Lookin for */}
                         <div className="form-group looking">
                           <div className="first-select wide">
                             <div className="main-search-input-item">
@@ -139,8 +136,6 @@ export default function PropertiesGrid() {
                             </div>
                           </div>
                         </div>
-                        {/*/ End Form Lookin for */}
-                        {/* Form Location */}
                         <div className="form-group location">
                           <div className="nice-select form-control wide" tabIndex={0}>
                             <span className="current">
@@ -172,8 +167,6 @@ export default function PropertiesGrid() {
                             </ul>
                           </div>
                         </div>
-                        {/*/ End Form Location */}
-                        {/* Form Categories */}
                         <div className="form-group categories">
                           <div className="nice-select form-control wide" tabIndex={0}>
                             <span className="current">
@@ -202,8 +195,6 @@ export default function PropertiesGrid() {
                             </ul>
                           </div>
                         </div>
-                        {/*/ End Form Categories */}
-                        {/* Form Property Status */}
                         <div className="form-group categories">
                           <div className="nice-select form-control wide" tabIndex={0}>
                             <span className="current">
@@ -220,8 +211,6 @@ export default function PropertiesGrid() {
                             </ul>
                           </div>
                         </div>
-                        {/*/ End Form Property Status */}
-                        {/* Form Bedrooms */}
                         <div className="form-group beds">
                           <div className="nice-select form-control wide" tabIndex={0}>
                             <span className="current">
@@ -261,8 +250,6 @@ export default function PropertiesGrid() {
                             </ul>
                           </div>
                         </div>
-                        {/*/ End Form Bedrooms */}
-                        {/* Form Bathrooms */}
                         <div className="form-group bath">
                           <div className="nice-select form-control wide" tabIndex={0}>
                             <span className="current">
@@ -302,27 +289,21 @@ export default function PropertiesGrid() {
                             </ul>
                           </div>
                         </div>
-                        {/*/ End Form Bathrooms */}
                       </form>
                     </div>
-                    {/*/ End Search Form */}
-                    {/* Price Fields */}
                     <div className="main-search-field-2">
-                      {/* Area Range */}
                       <div className="range-slider">
                         <label>Area Size</label>
                         <div id="area-range" data-min={0} data-max={1300} data-unit="sq ft" />
                         <div className="clearfix" />
                       </div>
                       <br />
-                      {/* Price Range */}
                       <div className="range-slider">
                         <label>Price Range</label>
                         <div id="price-range" data-min={0} data-max={600000} data-unit="$" />
                         <div className="clearfix" />
                       </div>
                     </div>
-                    {/* More Search Options */}
                     <a
                       onClick={() => setToggleAdvancedFeatures(!toggleAdvancedFeatures)}
                       type="button"
@@ -334,7 +315,6 @@ export default function PropertiesGrid() {
                       className="more-search-options relative  active"
                       style={{ display: toggleAdvancedFeatures ? 'block' : 'none' }}
                     >
-                      {/* Checkboxes */}
                       <div className="checkboxes one-in-row margin-bottom-10">
                         <input id="check-2" type="checkbox" name="check" />
                         <label htmlFor="check-2">Air Conditioning</label>
@@ -366,7 +346,6 @@ export default function PropertiesGrid() {
                         <label htmlFor="check-15">Outdoor Shower</label>
                       </div>
                     </div>
-                    {/* More Search Options / End */}
                     <div className="col-lg-12 no-pds">
                       <div className="at-col-default-mar">
                         <button className="btn btn-default hvr-bounce-to-right" type="submit">
@@ -446,12 +425,8 @@ export default function PropertiesGrid() {
                     </div>
                   </div>
                 </div>
-              </aside>
+              </aside> */}
             </div>
-
-            {/* <div className="row">
-             
-            </div> */}
           </div>
         </section>
       </div>

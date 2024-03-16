@@ -18,7 +18,7 @@ export default function FeatureProperties() {
         <div className="container-fluid">
           <div className="sec-title">
             <h2>
-              <span>Featured </span>Properties
+              <span>Featured </span>Units
             </h2>
             <p>These are our featured properties</p>
           </div>

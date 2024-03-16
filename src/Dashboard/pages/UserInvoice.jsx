@@ -13,7 +13,7 @@ export default function UserInvoice() {
           <div className="card-body p-0">
             <div className="row p-5 the-five">
               <div className="col-md-6">
-                <img src={process.env.PUBLIC_URL + '/images/myLogo.png'} width={80} alt="Logo" />
+                <img src={process.env.PUBLIC_URL + '/images/LogoDark.jpg'} width={80} alt="Logo" />
               </div>
               <div className="col-md-6 text-right">
                 <p className="font-weight-bold mb-1">Invoice #550</p>

@@ -5,17 +5,17 @@ export const NavbarRoutes = () => {
 
     const Routes = [
         {
-            name: "Societies",
+            name: "Area",
             link: '/dashboard/societies',
             visiblity: AgentRole() || SuperAdmin()
         },
         {
-            name: "Phases",
+            name: "Cummunity",
             link: '/dashboard/phases',
             visiblity: AgentRole() || SuperAdmin()
         },
         {
-            name: "Blocks",
+            name: "Building",
             link: '/dashboard/blocks',
             visiblity: AgentRole() || SuperAdmin()
         },
@@ -25,22 +25,22 @@ export const NavbarRoutes = () => {
             link: '/dashboard/agents',
             visiblity: SuperAdmin()
         }, {
-            name: "Properties",
+            name: "Units",
             link: '/dashboard/properties',
             visiblity: AgentRole() || SuperAdmin()
         },
         {
-            name: "Societies",
+            name: "Area",
             link: '/societies',
             visiblity: Customer()
         },
         {
-            name: "Phases",
+            name: "Cummunity",
             link: '/phases',
             visiblity: Customer()
         },
         {
-            name: "Blocks",
+            name: "Building",
             link: '/blocks',
             visiblity: Customer()
         },
@@ -50,7 +50,7 @@ export const NavbarRoutes = () => {
             link: '/agents',
             visiblity: Customer() || SuperAdmin()
         }, {
-            name: "Properties",
+            name: "Units",
             link: '/properties',
             visiblity: Customer()
         }
@@ -72,7 +72,7 @@ export const UserDropdownRoutes = () => {
             visiblity: IsUserLoggedIn()
         },
         {
-            name: "Add Property",
+            name: "Add Unit",
             link: '/dashboard/addproperty',
             visiblity: AgentRole() || SuperAdmin()
         }, {

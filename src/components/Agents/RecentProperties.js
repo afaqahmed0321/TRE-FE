@@ -5,7 +5,7 @@ export default function RecentProperties() {
     <>
       <div className="widget-boxed mt-5">
         <div className="widget-boxed-header">
-          <h4>Recent Properties</h4>
+          <h4>Recent Units</h4>
         </div>
         <div className="widget-boxed-body">
           <div className="recent-post">

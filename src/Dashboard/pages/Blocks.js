@@ -112,12 +112,12 @@ export default function AllBlocks() {
         {SuperAdmin() &&
           <> <div className="Actions w-100 d-flex justify-content-end mb-2">
             <button className="btn  btn-common" onClick={() => setShow(true)}>
-              Add New Block
+              Add New Building
             </button>
           </div>
             <Modal show={show} onHide={handleClose}>
               <Modal.Header closeButton>
-                <Modal.Title>{editMode ? "Edit Block" : "New Block"}</Modal.Title>
+                <Modal.Title>{editMode ? "Edit Building" : "New Building"}</Modal.Title>
               </Modal.Header>
               <Modal.Body>
                 <Formik
@@ -159,12 +159,12 @@ export default function AllBlocks() {
                       </div>
                       <div className="form-row">
                         <div className="form-group col-md-6">
-                          <label htmlFor="inputEmail4">Society</label>
+                          <label htmlFor="inputEmail4">Area</label>
                           <Field as="select" className='form-control' onChange={(e) => {
                             SelectSociety(e.target.value)
                             setFieldValue('society', e.target.value)
                           }} name="society">
-                            <option >Select Society</option>
+                            <option >Select Area</option>
                             {allSocieties?.data?.map((item, key) => {
                               return <option key={key} value={item._id}>{item.name}</option>
                             })}
@@ -173,9 +173,9 @@ export default function AllBlocks() {
 
                         </div>
                         <div className="form-group col-md-6">
-                          <label htmlFor="inputEmail4">Phase</label>
+                          <label htmlFor="inputEmail4">Community</label>
                           <Field as="select" className='form-control' name="phase">
-                            <option >Select Phase</option>
+                            <option >Select Community</option>
                             {phasesBySociety?.map((item, key) => {
                               return <option key={key} value={item._id}>{item.name}</option>
                             })}

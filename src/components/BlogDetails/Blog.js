@@ -144,7 +144,7 @@ function Blog() {
                                     </div>
                                     <div className="tags">
                                         <span><a href="#" className="btn btn-outline-primary">Real Estates</a></span>
-                                        <span><a href="#" className="btn btn-outline-primary">Properties</a></span>
+                                        <span><a href="#" className="btn btn-outline-primary">Units</a></span>
                                     </div>
                                     <div className="tags">
                                         <span><a href="#" className="btn btn-outline-primary">Location</a></span>

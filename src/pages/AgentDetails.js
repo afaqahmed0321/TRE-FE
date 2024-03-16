@@ -45,7 +45,7 @@ export default function AgentDetails() {
                     </div>
                   </div>
                   <div className="blog-pots py-0">
-                    <Description />
+                    {/* <Description /> */}
                     <div className="row">
                       {AgentProperties?.length > 0 && AgentProperties.map((item, key) => (
                         <div className="col-md-6 mb-3">
@@ -54,7 +54,7 @@ export default function AgentDetails() {
                       ))}
                     </div>
 
-                    <Reviews />
+                    {/* <Reviews /> */}
                     <AddReview />
                   </div>
                 </div>
@@ -64,8 +64,8 @@ export default function AgentDetails() {
                     <div className="sidebar">
                       <ContactAgent />
                       <div className="main-search-field-2">
-                        <RecentProperties />
-                        <FeatureProperties />
+                        {/* <RecentProperties /> */}
+                        {/* <FeatureProperties /> */}
                         <Special />
                       </div>
                     </div>

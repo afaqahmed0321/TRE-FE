@@ -187,7 +187,7 @@ a.button.border {
 }
 a.button.border,
 a.button {
-  background-color: #ff385c;
+  background-color: #255f84;
   top: 0;
   padding: 10px 20px;
   color: #fff;
@@ -505,15 +505,15 @@ a.button {
   border-radius: 3px;
 }
 #navigation.style-1 ul li:hover {
-  background-color: #ff385c;
-  color: #ff385c;
+  background-color: #255f84;
+  color: #255f84;
 }
 #navigation.style-1 ul li:hover a {
   color: #fff;
 }
 
 #navigation.style-1 ul li .current {
-  background-color: #ff385c;
+  background-color: #255f84;
   color: #fff;
 }
 
