@@ -13,12 +13,11 @@ export default function Sidebar() {
   return (
     <>
       <div className="user-profile-box mb-0">
-        <div className="sidebar-header">
+        {/* <div className="sidebar-header">
           <Link to={SuperAdmin() || AgentRole() ? `/dashboard` : '/'}>
-            <img src={process.env.PUBLIC_URL + "/images/LogoBlue.jpg"} alt="header-logo2.png" />
-
+            <img src={process.env.PUBLIC_URL + "/images/LogoLight.jpg"} alt="header-logo2.png" />
           </Link>
-        </div>
+        </div> */}
         <div className="header clearfix">
           <img src={process.env.REACT_APP_IMAGE_URL + userinfo?.photo} alt="avatar"
             className="img-fluid profile-img" />
